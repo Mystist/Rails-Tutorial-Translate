@@ -73,7 +73,7 @@ rails 很多时候会有一些看起来如同“魔法”一般的特性（例�
 
 ####1.1.2 “Scaling”(谁知道怎么翻译？)的rails
 
-在开始我们的教程之前我想要花一点时间来纠正一个多年来关于rails框架的最常见的问题：rails能不能去“架构“一个大型网站。我觉得关于这个问题你们有一些误区：[你架构的是一个网站，不是一个框架](http://idleprocess.wordpress.com/2009/11/24/presentation-summary-high-performance-at-massive-scale-lessons-learned-at-facebook/).而rails再牛逼也就是一个框架而已。所以你们真正想问的恐怕应该是：“大流量的网站能够用否rails框架来搭建？“。而如今，我想这个问题应该能够被很确定的回答：世界上某些流量最大的网站就是用rails搭建的！实施上做一个架构需要的东西远远不只是rails但是如果你确定你能够作出一个像Hulu,Yellow Pages那样的大型网站的话，我想rails是不会阻止你去颠覆世界的～！
+在开始我们的教程之前我想要花一点时间来纠正一个多年来关于rails框架的最常见的问题：rails能不能去“架构“一个大型网站。我觉得关于这个问题你们有一些误区：[你架构的是一个网站，不是一个框架](http://idleprocess.wordpress.com/2009/11/24/presentation-summary-high-performance-at-massive-scale-lessons-learned-at-facebook/).而rails再牛逼也就是一个框架而已。所以你们真正想问的恐怕应该是：“大流量的网站能够用否rails框架来搭建？“。而如今，我想这个问题应该能够被很确定的回答：世界上某些流量最大的网站就是用rails搭建的！事实上做一个架构需要的东西远远不只是rails但是如果你确定你能够作出一个像Hulu,Yellow Pages那样的大型网站的话，我想rails是不会阻止你去颠覆世界的～！
 
 ####1.1.3 关于本书的标准约定
 
@@ -121,7 +121,7 @@ Rails现在也可以作为一个命令来运行了,例如我们在1.2.5就会运
 
 我会简写成<code>config/routes.rb</code>.
 
-最后，Rails Rutorial 常常会输出不同的程序和文件，由于不同的计算机系统可能大家看到的又些许区别，但是这没有问题。另外，有意写命令可能由于你的计算机系统会产生错误信息，与其去一点一点的分析[Sisyphean](http://en.wikipedia.org/wiki/Sisyphus)错误日志，我觉得直接"Google 一下"回事更好的方法，这也将成为你在实践部署中的宝贵经验。
+最后，Rails Rutorial 常常会输出不同的程序和文件，由于不同的计算机系统可能大家看到的又些许区别，但是这没有问题。另外，有意写命令可能由于你的计算机系统会产生错误信息，与其去一点一点的分析[Sisyphean](http://en.wikipedia.org/wiki/Sisyphus)错误日志，我觉得直接"Google 一下"会是更好的方法，这也将成为你在实践部署中的宝贵经验。
 
 ###  1.2   让它跑起来
 
@@ -180,7 +180,7 @@ rails并不缺少支持 rails 的 IDE，有：[RadRails](http://www.aptana.com/r
 
 来确认你的版本号。Rails需要Ruby1.8.7以上才能工作，推荐版本为1.9.2。这份教材假设大家使用的是1.9.2的版本，不过如果你用的是1.8.7的版本也没什么问题。另外，Windows用户在安装 Rails Installer 1.3.0 会默认搭配上 ruby 1.8.7 。
 
-Ruby 1.9 作出了非常多的改动，所以你想要直接用上最新的Ruby或许有意写困难，如果你喜欢总是能用上最新版本的指令的话，下面的不走是我推荐的于是我现在所使用的方法（在 macintosh OS X上），你可以在网络上找到和你系统配套的命令。
+Ruby 1.9 作出了非常多的改动，所以你想要直接用上最新的Ruby或许有一些困难，如果你喜欢总是能用上最新版本的指令的话，下面的步骤是我推荐的于是我现在所使用的方法（在 macintosh OS X上），你可以在网络上找到和你系统配套的命令。
 
 首先要声明的事，我还是建议你使用 OS X 或者 Linux ，在这两个系统上我强烈推荐你使用 [Ruby版本管理器 RVM](http://rvm.beginrescueend.com/) 来安装管理你的Ruby版本。如果你想在同一机器上运行 Rails 3 和 Rails 2 这是非常重要的，在这里我给出的建议是,安装两套 RoR 版本: Ruby 1.8.7/Rails 2.3 和 Ruby 1.9.2/Rails 3.如果你在运行或者安装RVM的时候出现了问题，你可以在RVM的IRC 频道找到 Wayne E.Swguin报告问题。
 
